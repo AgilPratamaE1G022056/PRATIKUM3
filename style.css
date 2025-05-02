@@ -1,0 +1,56 @@
+/* mountain.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('Kerinci.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-top: 5vh;
+  }
+  input, button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  .item p {
+    margin-top: 0.5rem;
+    color: #f8f8f8;
+  }
+  a {
+    color: #ddd;
+    text-decoration: none;
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  a:hover {
+    color: #fff;
+  }
+  
